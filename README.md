@@ -31,6 +31,6 @@ This project automates end-to-end user interactions on [DailyFinance](https://da
    ```bash
      TOKEN=your_gmail_api_token
    ```
-   > This token is used to access your Gmail inbox for reading password reset emails.
+   > This token is used to access your Gmail inbox for reading user registration and password reset emails.
 
 
