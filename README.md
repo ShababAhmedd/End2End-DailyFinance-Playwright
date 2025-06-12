@@ -21,3 +21,14 @@ This project automates end-to-end user interactions on [DailyFinance](https://da
     git clone https://github.com/ShababAhmedd/End2End-DailyFinance-Playwright.git
     cd End2End-DailyFinance-Playwright
   ```
+2. **Install dependencies**
+   ```bash
+     npm install
+   ```
+
+3. **Create `.env` file
+   Create a `.env` file in the root directory with the following content:
+   ```bash
+     TOKEN=your_gmail_api_token
+   ```
+
