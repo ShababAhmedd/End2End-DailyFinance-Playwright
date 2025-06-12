@@ -46,3 +46,9 @@ To execute all test cases using Playwright, run:
 ```bash
 npx playwright test
 ```
+This will perform the full end-to-end flow:
+- User registration
+- Login and add items
+- Upload profile picture
+- Reset password
+- Login with the new password
