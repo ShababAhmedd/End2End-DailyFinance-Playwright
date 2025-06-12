@@ -47,6 +47,7 @@ To execute all test cases using Playwright, run:
 npx playwright test
 ```
 This will perform the full end-to-end flow:
+
 - User registration
 - Login and add items
 - Upload profile picture
@@ -62,3 +63,20 @@ To run a specific test file, use:
 npx playwright test tests/1_RegistrationTestRunner.spec.js
 ```
 > Replace the file path with any specific `.spec.js` file you want to execute individually.
+
+
+## 📊 Generating Allure Report
+
+After running your tests, generate and view the Allure report using:
+
+```bash
+  npx allure generate allure-results --clean -o allure-report
+  npx allure open allure-report
+```
+> This will generate a visual HTML report and open it in your browser.
+
+If you haven’t installed Allure CLI yet, install it globally with:
+
+```bash
+  npm install -g allure-commandline --save-dev
+```
