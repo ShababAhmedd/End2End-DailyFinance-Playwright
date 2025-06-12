@@ -21,7 +21,7 @@ This project automates end-to-end user interactions on [DailyFinance](https://da
     git clone https://github.com/ShababAhmedd/End2End-DailyFinance-Playwright.git
     cd End2End-DailyFinance-Playwright
   ```
-2. **Install dependencies**
+2. **Install dependencies** <br></br>
    First, install all required packages. 
    ```bash
      npm install @playwright/test dotenv @faker-js/faker allure-playwright --save-dev
