@@ -1,0 +1,24 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playWright.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^22.15.12",
+    "allure-playwright": "^3.2.2",
+    "mocha": "^11.6.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security"
+  }
+}
