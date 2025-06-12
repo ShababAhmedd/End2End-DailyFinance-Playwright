@@ -39,7 +39,7 @@ This project automates end-to-end user interactions on [DailyFinance](https://da
    > This token is used to access your Gmail inbox for reading user registration and password reset emails.
 
 
-## 🧪 Running the Tests
+## Running the Tests
 
 To execute all test cases using Playwright, run:
 
