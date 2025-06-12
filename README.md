@@ -52,3 +52,13 @@ This will perform the full end-to-end flow:
 - Upload profile picture
 - Reset password
 - Login with the new password
+
+
+### Run a Specific Test File
+
+To run a specific test file, use:
+
+```bash
+npx playwright test tests/1_RegistrationTestRunner.spec.js
+```
+> Replace the file path with any specific `.spec.js` file you want to execute individually.
