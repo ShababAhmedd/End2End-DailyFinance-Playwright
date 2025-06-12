@@ -65,7 +65,7 @@ npx playwright test tests/1_RegistrationTestRunner.spec.js
 > Replace the file path with any specific `.spec.js` file you want to execute individually.
 
 
-## 📊 Generating Allure Report
+## Generating Allure Report
 
 After running your tests, generate and view the Allure report using:
 
