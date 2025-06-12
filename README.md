@@ -80,3 +80,43 @@ If you haven’t installed Allure CLI yet, install it globally with:
 ```bash
   npm install -g allure-commandline --save-dev
 ```
+
+## Project Structure
+```
+  End2End-DailyFinance-Playwright/
+├── .vscode/ # VS Code settings (optional)
+├── allure-report/ # Generated Allure HTML report (ignored in git)
+├── allure-results/ # Allure raw results (ignored in git)
+├── node_modules/ # Project dependencies (ignored in git)
+├── pages/ # Page Object Model classes
+│ ├── AddItem.js
+│ ├── LoginPage.js
+│ ├── LogoutPage.js
+│ ├── RegistrationPage.js
+│ ├── ResetPage.js
+│ └── UploadPhoto.js
+├── playwright-report/ # Default HTML report (optional)
+├── reportScreenShots/ # Screenshots of Allure report for README
+│ ├── allureBehaviour.png
+│ ├── allureOverview.png
+│ └── playwright.png
+├── Resources/ # Profile image used in tests
+├── test-results/ # Playwright test output (JSON)
+├── tests/ # All test spec files
+│ ├── 1_RegistrationTestRunner.spec.js
+│ ├── 2_LoginTestRunner.spec.js
+│ ├── 3_ResetTestRunner.spec.js
+│ └── 4_NewPassTestRunner.spec.js
+├── Utils/ # Utility functions and Gmail API handler
+│ ├── gmailAPI.js
+│ ├── userData.json
+│ └── utils.js
+├── video_demonstration/ # Recorded video of full test execution
+│ ├── playwright.mp4
+│ └── playwright.mkv
+├── .env # Gmail API token (ignored in git)
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── playwright.config.js
+```
