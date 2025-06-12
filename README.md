@@ -22,11 +22,16 @@ This project automates end-to-end user interactions on [DailyFinance](https://da
     cd End2End-DailyFinance-Playwright
   ```
 2. **Install dependencies**
+   First, install all required packages. 
    ```bash
-     npm install
+     npm install @playwright/test dotenv @faker-js/faker allure-playwright --save-dev
+   ```
+   Then, install Playwright browsers:
+   ```bash
+     npx playwright install
    ```
 
-3. **Create `.env` file** <br></br>
+4. **Create `.env` file** <br></br>
    **Create a `.env` file in the root directory with the following content:**
    ```bash
      TOKEN=your_gmail_api_token
