@@ -26,7 +26,7 @@ This project automates end-to-end user interactions on [DailyFinance](https://da
      npm install
    ```
 
-3. **Create `.env` file**
+3. **Create `.env` file** <br></br>
    **Create a `.env` file in the root directory with the following content:**
    ```bash
      TOKEN=your_gmail_api_token
