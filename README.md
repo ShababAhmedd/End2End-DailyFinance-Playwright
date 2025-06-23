@@ -83,9 +83,6 @@ If you haven’t installed Allure CLI yet, install it globally with:
 
 ## Project Structure
 ```
-## 📁 Project Structure
-
-```
 End2End-DailyFinance-Playwright/
 ├── pages/                      # Page Object Models
 │   ├── AddItem.js              # Add cost item actions
