@@ -116,3 +116,7 @@ End2End-DailyFinance-Playwright/
 
 ## Playwright Report
 ![Playwright Report](reportScreenShots/playwright.png)
+
+## Video Demonstration
+### A complete screen recording of the automation test suite execution has been captured:
+https://github.com/user-attachments/assets/c95c4142-75ab-45c1-b016-0a59e8639c9b
