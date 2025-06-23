@@ -107,3 +107,12 @@ End2End-DailyFinance-Playwright/
 ├── package.json                # Project dependencies
 ├── playwright.config.js        # Playwright configuration
 ```
+
+## Allure Report
+- Overview:
+  ![Allure Report Overview](screenshots/allureOverview.png)
+- Behaviours:
+  ![Allure Report Behaviours](screenshots/allureBehaviours.png)
+
+## Playwright Report
+![Playwright Report](screenshots/playwright.png)
