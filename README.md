@@ -110,9 +110,9 @@ End2End-DailyFinance-Playwright/
 
 ## Allure Report
 - Overview:
-  ![Allure Report Overview](screenshots/allureOverview.png)
+  ![Allure Report Overview](reportScreenShort/allureOverview.png)
 - Behaviours:
-  ![Allure Report Behaviours](screenshots/allureBehaviours.png)
+  ![Allure Report Behaviours](reportScreenShots/allureBehaviours.png)
 
 ## Playwright Report
-![Playwright Report](screenshots/playwright.png)
+![Playwright Report](reportScreenShots/playwright.png)
