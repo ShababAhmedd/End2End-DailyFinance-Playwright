@@ -83,40 +83,30 @@ If you haven’t installed Allure CLI yet, install it globally with:
 
 ## Project Structure
 ```
-  End2End-DailyFinance-Playwright/
-├── .vscode/ # VS Code settings (optional)
-├── allure-report/ # Generated Allure HTML report (ignored in git)
-├── allure-results/ # Allure raw results (ignored in git)
-├── node_modules/ # Project dependencies (ignored in git)
-├── pages/ # Page Object Model classes
-│ ├── AddItem.js
-│ ├── LoginPage.js
-│ ├── LogoutPage.js
-│ ├── RegistrationPage.js
-│ ├── ResetPage.js
-│ └── UploadPhoto.js
-├── playwright-report/ # Default HTML report (optional)
-├── reportScreenShots/ # Screenshots of Allure report for README
-│ ├── allureBehaviour.png
-│ ├── allureOverview.png
-│ └── playwright.png
-├── Resources/ # Profile image used in tests
-├── test-results/ # Playwright test output (JSON)
-├── tests/ # All test spec files
-│ ├── 1_RegistrationTestRunner.spec.js
-│ ├── 2_LoginTestRunner.spec.js
-│ ├── 3_ResetTestRunner.spec.js
-│ └── 4_NewPassTestRunner.spec.js
-├── Utils/ # Utility functions and Gmail API handler
-│ ├── gmailAPI.js
-│ ├── userData.json
-│ └── utils.js
-├── video_demonstration/ # Recorded video of full test execution
-│ ├── playwright.mp4
-│ └── playwright.mkv
-├── .env # Gmail API token (ignored in git)
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── playwright.config.js
+## 📁 Project Structure
+
+```
+End2End-DailyFinance-Playwright/
+├── pages/                      # Page Object Models
+│   ├── AddItem.js              # Add cost item actions
+│   ├── LoginPage.js            # Login actions
+│   ├── LogoutPage.js           # Logout actions
+│   ├── RegistrationPage.js     # Registration form actions
+│   ├── ResetPage.js            # Password reset actions
+│   └── UploadPhoto.js          # Profile photo upload actions
+├── tests/                      # Test specs
+│   ├── 1_RegistrationTestRunner.spec.js  # user registration
+│   ├── 2_LoginTestRunner.spec.js         # login, add items, upload, logout
+│   ├── 3_ResetTestRunner.spec.js         # reset password via Gmail
+│   └── 4_NewPassTestRunner.spec.js       # login with new password
+├── Utils/                      # Utilities and test data
+│   ├── gmailAPI.js             # Gmail API helper for reset link
+│   ├── userData.json           # Stores user data for login/reset
+│   └── utils.js                # Random ID + env variable updater
+├── Resources/                  # Profile image used in upload test
+│   └── linus.faces22052...jpg
+├── .env                        # Gmail API token (ignored in git)
+├── .gitignore                  # Files/folders excluded from Git
+├── package.json                # Project dependencies
+├── playwright.config.js        # Playwright configuration
 ```
